@@ -84,4 +84,8 @@
 .main .result {
   font-weight: bold;
   margin-top: 40px;
+  padding: 25px;
+  background: linear-gradient(to top, rgb(241, 150, 150), rgb(165, 4, 4));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

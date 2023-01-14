@@ -21,6 +21,8 @@ export default function Home() {
 
     setLoading(true);
 
+    window.scrollTo(0, document.body.scrollHeight);
+
     try {
       const response = await fetch("/api/generate-gifts", {
         method: "POST",
