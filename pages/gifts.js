@@ -108,7 +108,7 @@ export default function Home() {
             onChange={(e) => setHobbies(e.target.value)}
           />
 
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Generate Gifts" />
         </form>
 
         {loading && (
